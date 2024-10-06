@@ -1,7 +1,8 @@
-let playerWins = 0;
-let computerWins = 0;
-let rounds = 0;
+// Using if-else operator for Odd or Even number
+const number = Math.floor(Math.random()*100)+1;  //generating a number between 1-100
 
-while (round <5){
-    let playerChoice 
+if (number % 2 === 0) {
+    console.log (`${number} is an even number!`)
+} else {
+    console.log (`${number} is an odd number!`)
 }
